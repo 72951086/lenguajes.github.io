@@ -53,3 +53,36 @@ footer{
 .letra2{
     color: #fff;
 }
+
+.pie-pagina .box figure{ 
+    width: 600%;
+    height: 600%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pie-pagina .box figure img .icon{  
+    width: 400px;
+}
+
+.pie-pagina .box .red-social a{ 
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: aqua;
+    margin-right: 10px;
+    background-color: #ccc;
+    text-align: center;
+    transition: all 300ms ease;
+    
+}
+.pie-pagina .box .red-social a:hover{ 
+    color: yellow;
+}
+
+.pie-pagina .grupo-1 small{
+    font-size: 15px;
+}
